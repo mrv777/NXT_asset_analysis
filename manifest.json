@@ -1,0 +1,9 @@
+{
+  "pluginVersion": 1,
+  "name": "Asset Analysis",
+  "myVersion": "1.0",
+  "shortDescription": "See candlestick and volume graph of assets",
+  "infoUrl": "https://github.com/mrv777/NXT_asset_analysis",
+  "startPage": "p_asset_analysis",
+  "nrsVersion": "1.7.4"
+}

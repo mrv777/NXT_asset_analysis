@@ -1,0 +1,51 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright © 2013-2016 The Nxt Core Developers.                            ~
+  ~                                                                           ~
+  ~ See the AUTHORS.txt, DEVELOPER-AGREEMENT.txt and LICENSE.txt files at     ~
+  ~ the top-level directory of this distribution for the individual copyright ~
+  ~ holder information and the developer policies on copyright and licensing. ~
+  ~                                                                           ~
+  ~ Unless otherwise agreed in a custom licensing agreement, no part of the   ~
+  ~ Nxt software, including this file, may be copied, modified, propagated,   ~
+  ~ or distributed except according to the terms contained in the LICENSE.txt ~
+  ~ file.                                                                     ~
+  ~                                                                           ~
+  ~ Removal or modification of this copyright notice is prohibited.           ~
+  ~                                                                           ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<div id="p_asset_analysis_page" class="page">
+    <section class="content-header">
+        <h1>Asset Analysis</h1>
+        <div style="position:absolute;top:9px;right:9px;">
+            <form class="sidebar-form" id="p_asset_search" style="width:180px;margin:0;display:inline-block;vertical-align:middle;" autocomplete="off">
+                <div class="input-group">
+                    <input type="text" name="p_asset_id" class="form-control" placeholder="Asset ID to view">
+                    <span class="input-group-btn">
+                        <button name="search" class="btn btn-flat"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </form>             
+        </div>
+    </section>
+    <section class="content">       
+        <div id="assetID" style="display:none;visibility:hidden"></div>
+        <div id="container" style="width:100%; height:400px;"></div>
+
+        <div class="data-container data-loading">
+            <table class="table table-striped table-hover" id="p_asset_analysis_table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                </tbody>
+            </table>
+            <div class="data-loading-container"><img src="img/loading_indicator.gif" alt="Loading..." width="32" height="32" /></div>
+            <div class="data-empty-container"><p>No Assets Found.</p></div>
+        </div>
+    </section>
+</div>
